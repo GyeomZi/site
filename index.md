@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="picture1">
+        <figure1>
+            <img
+                src="https://avatar.maplestory.nexon.com/Character/PCHIHFBHHBONBIPIKLPFODHBCGJGHPBCGKFCEFJMNMPABABIOOCLDGDKKGIEMNIBMJNHLJMLKHDKGAKMEELHMFHIMHLHFOMOIJFFAEBDHBPNDLBCENGFOOPBJJPNFAMMGGNLCLMCMMDPFBNALNCPEPALLBBHNODHGLKILMOBBELEAGJHMDKGCEDGMMDPPKEBJHHOBIKBKIHHPEGAPODMFBJEHDALAKLGDMLMHDEFBLJJANLDNIJHBPNDPICINPOA.png">
+        </figure1>
+<h1 class="name">애린댕</h1>
+    </div>
+    <div class="picture2">
+        <figure2>
+            <img
+                src="https://avatar.maplestory.nexon.com/Character/LFEMPPIGKMBFNFNHODPGJLPODMLJMAKAALDIBKNNINCJOJJCNGONPIDBNEJGONOAFCKHEACFCKNEPFNHAACJGIFOPAPEEIEAOABEGNNAPBCKEIAAKFLIGGGPKFGIDKFDGONDLMJOEBDPEDAEFDHEMGIAECBDJEPHBOJJLKCFIOPCBEEEILIFBFCFKDALFIODJHFKOMHJNHNCBMLHGJDAMAOPNLONJEABKDOGIJAJLOMBKCCBNJLNOAHCNIGEFDJJ.png">
+        </figure2>
+        <h1 class="name2">슬셔</h2>
+    </div>
+    <div class="picuture3">
+    <figure3>
+        <img src="https://i.namu.wiki/i/ZeERMPr23SZdmPXRF-te-HphNvDUwsmjBm3z5F5t5ytI7raj-cWrFM-ZDxBFM_QDSUOYu4byQgur0NKYOb07QQ.gif">
+    </figure3>    
+    </div>
+    <div class="picture4">
+        <figure4>
+            <img src="https://o.remove.bg/downloads/69907116-e977-46fe-b430-bcc1b5225177/Maple_191128_093711-removebg-preview.png">
+        </figure4>
+    </div>
+</body>
+
+</html>

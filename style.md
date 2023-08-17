@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-image: url('https://blog.kakaocdn.net/dn/XmAvC/btrzSfQ7uig/skQ3bET1rE26ajKnDzctNK/img.jpg');
+    object-fit: cover;
+}
+
+
+
+figure1 {
+    z-index: 50;
+    position: absolute;
+    bottom: 80px;
+    left: 550px;
+}
+
+figure2 {
+    z-index: 50;
+    position: absolute;
+    bottom: 80px;
+    left: 150px;
+}
+
+figure3 {
+    z-index: 50;
+    position: absolute;
+    bottom: -170px;
+    left: 500px;
+}
+
+figure4 {
+    z-index: 50;
+    position: absolute;
+    bottom: 250px;
+    left: 500px;
+}
+
+.name {
+    text-align: center;
+    height: 24px;
+    width: 70px;
+    z-index: 50;
+    position: absolute;
+    bottom: 50px;
+    left: 170px;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border: 2px solid pink;
+    border-radius: 1rem;
+}
+
+.name2 {
+    text-align: center;
+    height: 24px;
+    width: 70px;
+    z-index: 50;
+    position: absolute;
+    bottom: 50px;
+    left: 565px;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border: 2px solid pink;
+    border-radius: 1rem;
+}
+
+figure4 img {
+    width: 70%;
+}
+
+.picture1 {}
+
+.picture2 {}
+
+.picture3 {
+    width: 10%;
+}
+
+
+figure3 {
+    position: absolute;
+    animation-name: boss;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-duration: leaner;
+    margin-left: -50px;
+    width: 70%;
+
+}
+
+figure4 {
+    position: absolute;
+    width: 50%;
+    margin-left: -50px;
+    color: #fff;
+    /* 애니메이션 이름 */
+    animation-name: damage;
+    animation-duration: 2.5s;
+    animation-duration: leaner;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+/* 키프레임 이름 = 애니메이션 이름 */
+@keyframes damage {
+    0% {
+        left: 250px;
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0;
+    }
+
+    85%{
+        opacity: 1;
+    }
+    100% {
+        left: 400px;
+        opacity: 1;
+    }
+}
+
+@keyframes boss {
+    0% {
+        left: 800px;
+        opacity: 0;
+    }
+
+    25%{
+        opacity: 0;
+    }    }
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        left: 400px;
+        opacity: 1;
+    }
+}
