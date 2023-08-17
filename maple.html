@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메이플스토리 로그인</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://i.namu.wiki/i/qXrIz-hw4J5s6dIXhUwuC4x1G9HDonUF5QjWzrcnyKAQZo5NNSKoe4pA54-EjQbRgB7_aPAMiyu9CxG60-YZUw.gif');
+            /* 배경 이미지 설정 */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            padding: 30px;
+            width: 400px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+            color: white;
+        }
+
+        .login-container h1 {
+            margin: 0;
+            font-size: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid white;
+        }
+
+        .login-input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.2);
+            color: white;
+        }
+
+        .login-input::placeholder {
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .login-button {
+            background-color: #004f87;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .login-button:hover {
+            background-color: #003366;
+        }
+
+        .monster-container {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            width: 150px;
+        }
+
+        .monster-image {
+            width: 100%;
+            display: block;
+        }
+
+        .button-container{
+         position:absolute;
+         left:20px;
+         top:20px;
+         padding:20px;
+         background-color: gray;
+         border: 3px solid black;
+         border-radius: 1rem;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="button-container">
+        게시판1
+    </div>
+    <div class="monster-container">
+        <img src="https://i.namu.wiki/i/lzttOJpAWb2PkkuNn18GF9VnTzznZyt167qZWG3aLC3GjMi0PzDdYrgHqHGdNb4PUitPUinbThPiLg-tdPH6nA.gif"
+            alt="몬스터" class="monster-image">
+    </div>
+
+    <div class="login-container">
+        <h1>사용자 로그인</h1>
+        <form action="#" method="post">
+            <input type="text" class="login-input" placeholder="아이디" required>
+            <input type="password" class="login-input" placeholder="비밀번호" required>
+            <button type="submit" class="login-button">로그인</button>
+        </form>
+    </div>
+</body>
+
+</html>
